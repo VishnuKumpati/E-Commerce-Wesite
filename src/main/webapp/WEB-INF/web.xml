@@ -1,0 +1,70 @@
+<!DOCTYPE web-app PUBLIC
+ "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+ "http://java.sun.com/dtd/web-app_2_3.dtd">
+<web-app>
+	<servlet>
+		<servlet-name>s</servlet-name>
+		<display-name>s</display-name>
+		<description></description>
+		<servlet-class>com.web.Controller.s</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>ViewAllRetailer</servlet-name>
+		<display-name>ViewAllRetailer</display-name>
+		<description></description>
+		<servlet-class>com.web.Controller.ViewAllRetailer</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>a</servlet-name>
+		<display-name>a</display-name>
+		<description></description>
+		<servlet-class>com.web.Controller.a</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>BlockBuyer</servlet-name>
+		<display-name>BlockBuyer</display-name>
+		<description></description>
+		<servlet-class>com.web.Controller.BlockBuyer</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>BlockRetailer</servlet-name>
+		<display-name>BlockRetailer</display-name>
+		<description></description>
+		<servlet-class>com.web.Controller.BlockRetailer</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>OrderHistoryServlet</servlet-name>
+		<display-name>OrderHistoryServlet</display-name>
+		<description></description>
+		<servlet-class>com.web.Controller.OrderHistoryServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>s</servlet-name>
+		<url-pattern>/s</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>ViewAllRetailer</servlet-name>
+		<url-pattern>/ViewAllRetailer</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>a</servlet-name>
+		<url-pattern>/a</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>BlockBuyer</servlet-name>
+		<url-pattern>/BlockBuyer</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>BlockRetailer</servlet-name>
+		<url-pattern>/BlockRetailer</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>OrderHistoryServlet</servlet-name>
+		<url-pattern>/OrderHistoryServlet</url-pattern>
+	</servlet-mapping>
+	
+
+  <welcome-file-list>
+    <welcome-file>home.jsp</welcome-file>
+  </welcome-file-list>
+</web-app>
